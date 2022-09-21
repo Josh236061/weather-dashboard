@@ -25,3 +25,7 @@ THEN I am again presented with current and future conditions for that city
 ## Project Screenshot
 
 ![06-server-side-apis-homework](https://user-images.githubusercontent.com/71394743/191397364-fb3eb99c-22d3-4b4f-bd77-c76da81d83ff.png)
+
+GitHub Repo URL: https://github.com/Josh236061/weather-dashboard
+
+Published Website URL: 
