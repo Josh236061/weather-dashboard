@@ -28,4 +28,4 @@ THEN I am again presented with current and future conditions for that city
 
 GitHub Repo URL: https://github.com/Josh236061/weather-dashboard
 
-Published Website URL: 
+Published Website URL: https://josh236061.github.io/weather-dashboard/
