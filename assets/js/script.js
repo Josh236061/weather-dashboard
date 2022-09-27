@@ -77,7 +77,7 @@ app.controller('myCtrl', function($scope, $http, $filter) {
         $http({
             method : "GET",
             
-            url : "http://api.openweathermap.org/geo/1.0/direct?q="+$scope.searchText+"&limit=1&appid=e11f5b4ae2dcc5c38dad41ca26379e1e"
+            url : "https://api.openweathermap.org/geo/1.0/direct?q="+$scope.searchText+"&limit=1&appid=e11f5b4ae2dcc5c38dad41ca26379e1e"
           }).then(function mySuccess(response) {
             // console.log(response)
             if(response.data ){

@@ -42,9 +42,10 @@
             <div class="m-3">
                 <h3> <strong ng-bind="formatDate(RequiredValueforUs[0].dt_txt)  | date:'MM/dd/yyyy'">  </strong>
                 <!-- <i class="bi bi-sun" style="font-size:2rem;color:#E63F17"></i> -->
-                <img src="http://openweathermap.org/img/wn/{{RequiredValueforUs[0].weather[0].icon}}.png" />
+                <img src="https://openweathermap.org/img/wn/{{RequiredValueforUs[0].weather[0].icon}}.png" />
                 <br/>
                 </h3>
+                <!-- <h6>City:  {{RequiredValueforUs[0].main.city.id}}</h6> -->
                 <h6>Temp:  {{RequiredValueforUs[0].main.temp}}</h6>
                 <h6>Wind:  {{RequiredValueforUs[0].main.wind.speed}} MPH</h6>
                 <h6>Humidity:  {{RequiredValueforUs[0].main.humidity}} %</h6>
@@ -64,7 +65,7 @@
                       <h4 class="card-title"> <strong ng-bind="formatDate(item.dt_txt)  | date:'MM/dd/yyyy' ">  </strong>
                        </h4>
 
-                      <img src="http://openweathermap.org/img/wn/{{item.weather[0].icon}}.png" />
+                      <img src="https://openweathermap.org/img/wn/{{item.weather[0].icon}}.png" />
                       <h6>Temp:  {{item.main.temp}}</h6>
                       <h6>Wind:  {{item.main.wind.speed}} MPH</h6>
                       <h6>Humidity:  {{item.main.humidity}} %</h6>
